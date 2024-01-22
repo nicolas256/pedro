@@ -1,15 +1,20 @@
 import express from 'express';
 
 
-const server = express(); 
+const server = express();
 
 
-server.get('/', (req, res) => {
+interface Teste {
 
-  return res.send('Olá, DEV!');  
+}
+
+
+
+server.put('/', (req, res) => {
+  return res.send('Olá Pedro');
 });
 
 
 
-export { server };
 
+export { server };
