@@ -10,7 +10,7 @@ interface Teste {
 
 
 
-server.put('/', (req, res) => {
+server.get('/', (req, res) => {
   return res.send('Olá Pedro');
 });
 
